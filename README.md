@@ -5,11 +5,13 @@ Send-Denon was created out of the need to have an easy way to send known command
 
 Usage:
 Turn Main Zone On
-> SEND-DENON -remotehost 10.50.10.50 -Commands ZMON 
+> SEND-DENON -remotehost 10.50.10.50 -Commands ZMON
+> 
 > SEND-DENON 10.50.10.50 ZMON 
 > 
 Turn Main Zone Volume up 1% (each volume is .5)
 > SEND-DENON -remotehost 10.50.10.50 -Commands MVUP, MVUP 
+> 
 > SEND-DENON 10.50.10.50 MVUP, MVUP
 
 Commands: https://www.denon.com/-/media/files/documentmaster/denonna/avr-x3700hfy21avr_denon_protocol_v02_04062020.xlsx
